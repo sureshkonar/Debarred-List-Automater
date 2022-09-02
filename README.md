@@ -24,10 +24,10 @@ d) the index of entries is also been maintained in a separate sheet called "Inde
 
 1) python 3.9 
 
-![image](https://user-images.githubusercontent.com/74930080/188193590-096f75a2-321a-451b-8d67-24113e7b2d81.png)
+![image](![image](https://user-images.githubusercontent.com/74930080/188194573-760957a1-d16f-4864-a83c-89d7182206f1.png))
 
 2) openpyxl Library 
 
-![image](https://user-images.githubusercontent.com/74930080/188193472-2d9c5a5f-f17b-45e0-aa70-fd9612f7d071.png)
+![image](![image](https://user-images.githubusercontent.com/74930080/188194612-6d4c4689-3633-46f6-99be-66052b5110fb.png))
 
 
