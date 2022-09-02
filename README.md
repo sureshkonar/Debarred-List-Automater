@@ -22,8 +22,12 @@ d) the index of entries is also been maintained in a separate sheet called "Inde
   
 # Technology Stack 📝
 
-1) python 3.9  ![image](https://user-images.githubusercontent.com/74930080/188193590-096f75a2-321a-451b-8d67-24113e7b2d81.png)
+1) python 3.9 
 
-2) openpyxl Library ![image](https://user-images.githubusercontent.com/74930080/188193472-2d9c5a5f-f17b-45e0-aa70-fd9612f7d071.png)
+![image](https://user-images.githubusercontent.com/74930080/188193590-096f75a2-321a-451b-8d67-24113e7b2d81.png)
+
+2) openpyxl Library 
+
+![image](https://user-images.githubusercontent.com/74930080/188193472-2d9c5a5f-f17b-45e0-aa70-fd9612f7d071.png)
 
 
