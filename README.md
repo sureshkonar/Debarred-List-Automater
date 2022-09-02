@@ -1,7 +1,12 @@
 # Debarred-List-Automater for College Assessments 🤖
 In Simple word this is a Excel sheet Automator Program using Openpyxl Python Library for large Datasets 
 
-Where the program's task is to select the values among the dataset between the specified range and then traversing the selected data into the new sheet of the same excel file 
+Where the program's task is to select the values among the dataset which lies between the specified range and then traversing the selected data into the new sheet of the same excel file 
+
+# Purpose 🎯
+
+This Program was implemented by us for using it in my College for getting debarred students details from large student records in one click
+Also to avoid time consumption and  human errors while handling such large Datasets
 
 ![HappyFaceExcelGIF](https://user-images.githubusercontent.com/74930080/188192262-b8040bd4-65eb-41ee-a3d0-bdc98b868709.gif)
 
@@ -16,7 +21,7 @@ To implement a python program which automates the process of finding/selecting t
 
 # Problem Description ➡️ 
 
-This is a Python Code which will 🎯
+This is a Python Code which will 
 
 a) traverse an ExcelFile (format.xlsx)
 
@@ -50,5 +55,8 @@ The Excel file that is supposed tp be used in this program  should follow the Co
 ![image](https://user-images.githubusercontent.com/74930080/188195543-f7410d53-2526-4e91-8104-508a181adc19.png)
 
 
+# Credits 🏅
 
+Suresh Mahalingam Konar @sureshkonar
+Manish Prasad
 
