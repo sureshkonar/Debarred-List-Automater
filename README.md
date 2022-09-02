@@ -17,9 +17,13 @@ To implement a python program which automates the process of finding/selecting t
 This is a Python Code which will 🎯
 
 a) traverse an ExcelFile (format.xlsx)
+
 b) sort the data according to the range such that eg: (80<x<90)
+
 c) now this sorted data is been appended on new sheet of the same (format.xlsx) file according to the mentioned range 
+
 d) the index of entries is also been maintained in a separate sheet called "Index". Where we have total number of entries & students
+
   
 # Format Excel File ( format.xlsx )
 
