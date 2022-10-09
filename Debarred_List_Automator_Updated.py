@@ -1,5 +1,6 @@
 from tracemalloc import start
-import pandas as pd 
+import pandas as pd
+from math import floor 
 
 filepath=input("Enter the File path : ")
 
@@ -12,14 +13,18 @@ data_orig = pd.read_excel(filepath)
 #creating attendance sheets and index for attendance percentagw
 total_ent = []
 unique_ent = []
-attendance = []                                   # reading excel file by its path
+attendance = []                                   
+# reading excel file by its path
 
 for i in range_input:
     sh_name = '<'+str(i)+' ATTENDANCE'
-    select=data_orig[data_orig['ATTENDANCE PERCENTAGE'].between(0,i-1)]          # Sorting of elements based on the range inputs from user
-    print(select)                                                # displaying selected values
+    select=data_orig[data_orig['ATTENDANCE PERCENTAGE'].between(0,i-1)]          
+    # Sorting of elements based on the range inputs from user
+    print(select)                                                
+    # displaying selected values
     writer_new=pd.ExcelWriter(path=filepath, if_sheet_exists = 'replace',mode='a',engine='openpyxl')  
-    select.to_excel(excel_writer=writer_new, sheet_name = sh_name)                         # appending the selected values on the specific sheet of the excel file
+    select.to_excel(excel_writer=writer_new, sheet_name = sh_name)                        
+     # appending the selected values on the specific sheet of the excel file
     writer_new.save() 
 
     total_ent.append(select.shape[0])
@@ -64,14 +69,14 @@ for ind in data_orig.index:
     else:
         if std_regno != '':
             for _ in range(count):
-                avg_attendance.append((round(att_sum/count)))
+                avg_attendance.append((floor(att_sum/count)))
 
         std_regno = regno
         att_sum = data_orig['ATTENDANCE PERCENTAGE'][ind]
         count = 1
 
 for _ in range(count):
-    avg_attendance.append((round(att_sum/count)))
+    avg_attendance.append((floor(att_sum/count)))
 
 data_orig['ATTENDANCE AVG'] = avg_attendance
 
@@ -86,7 +91,7 @@ attendance = []
 for i in range_input:
     sh_name = '<'+str(i)+' ATTENDANCE AND OVERALL_AVG <'+str(i)
     select=data_orig[data_orig['ATTENDANCE PERCENTAGE'].between(0,i-1)]
-    select=data_orig[data_orig['ATTENDANCE AVG'].between(0,i)]         # Sorting of elements based on the range inputs from user
+    select=select[data_orig['ATTENDANCE AVG'].between(0,i-1)]         # Sorting of elements based on the range inputs from user
     print(select)                                                # displaying selected values  
     select.to_excel(excel_writer=writer_new, sheet_name = sh_name)                         # appending the selected values on the specific sheet of the excel file
     writer_new.save() 
