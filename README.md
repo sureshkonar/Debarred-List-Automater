@@ -136,11 +136,11 @@ Step 4 : Now Upload the .xlsx i.e MS Excel file in the folder section at left si
 
 ![image](https://user-images.githubusercontent.com/74930080/214041624-1797d6ca-c836-481c-9520-6d2c44b26d38.png)
 
-Note : 
-Make sure that Excel File has same format as the “ Format.xlsx “ file included
-Particularly Make sure the following fields should be named as 
-a)	“ATTENDANCE PERCENTAGE” ( Attendance percentage of a student. )
-b)	“REG. NO.” ( Registration number of the concerned student. )
+**Note : 
+**Make sure that Excel File has same format as the “ Format.xlsx “ file included
+**Particularly Make sure the following fields should be named as 
+**a)	“ATTENDANCE PERCENTAGE” ( Attendance percentage of a student. )
+**b)	“REG. NO.” ( Registration number of the concerned student. )
 
 Step 5 : Run the first cell for installing the prerequisites of the program.
 
