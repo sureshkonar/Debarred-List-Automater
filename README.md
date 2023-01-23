@@ -121,7 +121,7 @@ Plan to host the code over cloud editors like  Google Collabs etc such that
 
 ![image](https://user-images.githubusercontent.com/74930080/214040248-9884d7a0-2f4f-4197-9a06-fdfe7375c27f.png)
 
-The updated installation steps for our project is mentioned below ⬇️
+# The updated installation steps for our project is mentioned below ⬇️
 
 Step 1 : Open Google Collab in  any Web Browser. 🔗https://colab.research.google.com/
 Step 2 : Upload the provided “debarred_analysis.ipynb” file through the upload tab in google collab
