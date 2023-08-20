@@ -1,8 +1,7 @@
 # PyDebarList: Python-Powered Debarred Student Roster
-a.k.a Debarred-List-Automater for College Assessments 🤖
-In Simple word this is a Excel sheet Automator Program using Openpyxl Python Library for large Datasets 
+a.k.a Debarred-List-Automater 🤖
 
-Where the program's task is to select the values among the dataset which lies between the specified range and then traversing the selected data into the new sheet of the same excel file 
+"Introducing PyDebarList: Effortlessly generate debarred student lists with Python. This streamlined tool leverages Python's efficiency to automate the process, ensuring accuracy and saving time. With user-friendly inputs, PyDebarList swiftly compiles and exports comprehensive rosters. Say goodbye to manual entry and hello to precise results, all thanks to the power of Python."
 
 ![HappyFaceExcelGIF](https://user-images.githubusercontent.com/74930080/188192262-b8040bd4-65eb-41ee-a3d0-bdc98b868709.gif)
 
