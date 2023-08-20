@@ -1,7 +1,7 @@
 # PyDebarList: Python-Powered Debarred Student Roster
 a.k.a Debarred-List-Automater 🤖
 
-"Introducing PyDebarList: Effortlessly generate debarred student lists with Python. This streamlined tool leverages Python's efficiency to automate the process, ensuring accuracy and saving time. With user-friendly inputs, PyDebarList swiftly compiles and exports comprehensive rosters. Say goodbye to manual entry and hello to precise results, all thanks to the power of Python."
+  Introducing PyDebarList: Effortlessly generate debarred student lists with Python. This streamlined tool leverages Python's efficiency to automate the process, ensuring accuracy and saving time. With user-friendly inputs, PyDebarList swiftly compiles and exports comprehensive rosters. Say goodbye to manual entry and hello to precise results, all thanks to the power of Python.
 
 ![HappyFaceExcelGIF](https://user-images.githubusercontent.com/74930080/188192262-b8040bd4-65eb-41ee-a3d0-bdc98b868709.gif)
 
